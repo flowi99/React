@@ -13,7 +13,7 @@ export function ToDo(){
         <div>
             <b>Meine WunderListe</b>
 
-            <Termin warning={"Knapp!"}/>
+            <Termin/>
             {/* Loop over tasks array to create ToDoListItems */}
             <ul>
                 {tasks.map((item) => (
